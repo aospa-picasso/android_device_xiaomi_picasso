@@ -15,8 +15,6 @@ vendor.display.idle_time=1100
 debug.sf.disable_backpressure=1
 qemu.sf.lcd_density=440
 
-# Graphics
-debug.cpurend.vsync=false
 
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
