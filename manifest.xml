@@ -104,6 +104,28 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="hidl">
+        <name>android.hardware.graphics.allocator</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IAllocator/default</fqname>
+        <fqname>@3.0::IAllocator/default</fqname>
+        <fqname>@4.0::IAllocator/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.graphics.composer</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IComposer/default</fqname>
+        <fqname>@2.1::IComposer/default</fqname>
+        <fqname>@3.0::IComposer/default</fqname>
+        <fqname>@4.0::IComposer/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.graphics.mapper</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.1::IMapper/default</fqname>
+        <fqname>@3.0::IMapper/default</fqname>
+        <fqname>@4.0::IMapper/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>android.hardware.memtrack</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -592,15 +614,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <version>1.0</version>
         <interface>
             <name>IXiaomiFingerprint</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.touchfeature</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ITouchFeature</name>
             <instance>default</instance>
         </interface>
     </hal>
