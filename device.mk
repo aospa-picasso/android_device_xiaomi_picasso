@@ -378,6 +378,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
 
+# QMI
+PRODUCT_PACKAGES += \
+    libjson
+
+# QTI
+PRODUCT_PACKAGES += \
+    libqti_vndfwk_detect.vendor \
+    libvndfwk_detect_jni.qti.vendor
+
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     perf \
@@ -387,7 +396,10 @@ TARGET_COMMON_QTI_COMPONENTS := \
     vibrator \
     nq-nfc \
     wlan \
-    display
+    display \
+    audio \
+    media \
+    av 
 
 # RenderScript
 PRODUCT_PACKAGES += \
