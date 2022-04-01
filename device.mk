@@ -397,9 +397,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
     nq-nfc \
     wlan \
     display \
-    audio \
-    media \
-    av 
 
 # RenderScript
 PRODUCT_PACKAGES += \
