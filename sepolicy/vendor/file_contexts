@@ -44,7 +44,7 @@
 /sys/devices/platform/soc/[a-z0-9]+.qcom,mdss_mdp/drm/card([0-3])+/card([0-3])+-DSI-1/hbm_status        u:object_r:vendor_sysfs_graphics:s0
 
 # Health
-/sys/devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify(/.*)?          u:object_r:sysfs_battery_supply:s0
+/sys/devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify(/.*)?          u:object_r:vendor_sysfs_battery_supply:s0
 
 # LEDs
 /sys/devices/platform/soc/a84000.i2c/i2c-2/2-0064/leds(/.*)?                        u:object_r:sysfs_leds:s0
