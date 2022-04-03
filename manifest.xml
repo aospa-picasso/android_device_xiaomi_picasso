@@ -25,8 +25,8 @@ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
 OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
-<manifest version="1.0" type="device" target-level="4">
-    <kernel target-level="4"/>
+<manifest version="1.0" type="device" target-level="5">
+    <kernel target-level="5"/>
     <hal format="hidl">
         <name>vendor.qti.hardware.capabilityconfigstore</name>
         <transport>hwbinder</transport>
@@ -95,15 +95,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.configstore</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
-        <interface>
-            <name>ISurfaceFlingerConfigs</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.graphics.allocator</name>
         <transport>hwbinder</transport>
         <fqname>@2.0::IAllocator/default</fqname>
@@ -115,8 +106,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <transport>hwbinder</transport>
         <fqname>@2.0::IComposer/default</fqname>
         <fqname>@2.1::IComposer/default</fqname>
-        <fqname>@3.0::IComposer/default</fqname>
-        <fqname>@4.0::IComposer/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.graphics.mapper</name>
@@ -606,15 +595,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <interface>
             <name>IQccvndhal</name>
             <instance>qccvndhal</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.fingerprintextension</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IXiaomiFingerprint</name>
-            <instance>default</instance>
         </interface>
     </hal>
 </manifest>
