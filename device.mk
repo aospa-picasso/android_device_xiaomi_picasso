@@ -138,7 +138,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qcom.bluetooth.soc=hastings \
     persist.vendor.qcom.bluetooth.twsp_state.enabled=false \
     ro.vendor.bluetooth.wipower=false \
-    vendor.qcom.bluetooth.soc=hastings
+    vendor.qcom.bluetooth.soc=cherokee
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.btstack.enable.lpa=true \
@@ -237,7 +237,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey
-
     
 # Fastbootd
 PRODUCT_PACKAGES += \
