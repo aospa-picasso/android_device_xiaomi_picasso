@@ -289,7 +289,7 @@ PRODUCT_PACKAGES += \
     init.mi.usb.sh \
     init.qti.dcvs.sh \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.picasso.rc
 
 # KeyHandler
 PRODUCT_PACKAGES += \

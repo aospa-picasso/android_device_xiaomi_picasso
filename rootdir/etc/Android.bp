@@ -26,9 +26,9 @@ prebuilt_etc {
 }
 
 prebuilt_etc {	
-    name: "ueventd.qcom.rc",	
+    name: "ueventd.picasso.rc",	
     filename: "ueventd.rc",	
-    src: "ueventd.qcom.rc",	
+    src: "ueventd.picasso.rc",	
     vendor: true,	
 }	
 
