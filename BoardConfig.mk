@@ -63,15 +63,15 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/xiaomi_vendor_framework_compatibility_matrix.xml
 
 DEVICE_MANIFEST_FILE += \
-    $(DEVICE_PATH)/manifest.xml \
-    $(DEVICE_PATH)/xiaomi_manifest.xml
+    $(DEVICE_PATH)/configs/vintf/manifest.xml \
+    $(DEVICE_PATH)/configs/vintf/xiaomi_manifest.xml
 
 DEVICE_MATRIX_FILE += \
     device/qcom/common/compatibility_matrix.xml
     
 ODM_MANIFEST_SKUS += picasso
 ODM_MANIFEST_PICASSO_FILES := \
-    $(DEVICE_PATH)/manifest-odm.xml
+    $(DEVICE_PATH)/configs/vintf/manifest-odm.xml
 
 # Input
 TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 102
