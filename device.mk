@@ -284,11 +284,16 @@ PRODUCT_COPY_FILES += \
 
 # Init scripts
 PRODUCT_PACKAGES += \
-    fstab.emmc \
     init.mi.usb.sh \
     init.qti.dcvs.sh \
     init.target.rc \
     ueventd.picasso.rc
+
+PRODUCT_PACKAGES += \
+    fstab.default \
+    fstab.default.ramsdisk \
+    fstab.emmc \
+    fstab.emmc.ramdisk
 
 # KeyHandler
 PRODUCT_PACKAGES += \
