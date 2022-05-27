@@ -178,6 +178,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.pps.disallowed=1 \
     persist.vendor.hvdcp_opti.disallowed=1
 
+# Config Store
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # Consumer IR
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
